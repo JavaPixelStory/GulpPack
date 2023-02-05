@@ -20,7 +20,7 @@ const paths = {
         dest:'dest/html'
     },
     style: {
-        src:'src/styles/**/*.sass',
+        src:['src/styles/**/*.sass', 'src/styles/**/*.scss'],
         dest:'dest/css'
     },
     scripts: {
@@ -28,7 +28,7 @@ const paths = {
         dest:'dest/js'
     },
     images: {
-        src: 'src/img/*',
+        src: 'src/img/**',
         dest:'dest/img'
     }
 }
